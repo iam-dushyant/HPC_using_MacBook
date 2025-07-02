@@ -2,7 +2,7 @@
 This document is created to list useful code to run the above files.
 
 ## C++ file with no parallel computing, MPI, openMP, or MPS
-`toy.cpp` is a C++ code with no parallel computing or GPU acceleration elements. \\
+`toy.cpp` is a C++ code with no parallel computing or GPU acceleration elements. <br>
 To compile the code -
 ```
 g++ toy.cpp -o toy
@@ -32,7 +32,7 @@ mpirun -np 4 ./ml_cpu
 where -np is the flag for number of processes
 
 ## C++ file with MPS GPU acceleration
-The file extension for MPS enablement is `.mm` as opposed to `.cpp`. \\
+The file extension for MPS enablement is `.mm` as opposed to `.cpp`. <br>
 The header files used for the objective-C++ file is -
 ```
 #import <Metal/Metal.h>
