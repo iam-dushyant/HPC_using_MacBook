@@ -85,12 +85,12 @@ int main() {
     memcpy(C, [bufferC contents], bytesC);
 
     // 7. Print result
-    std::cout << \"Result C (\" << M << \" x \" << N << \"):\\n\";
+    std::cout << "Result C (" << M << "x" << N << "):\n";
     for (int i = 0; i < M; ++i) {
         for (int j = 0; j < N; ++j) {
-            std::cout << C[i * N + j] << \" \";
+            std::cout << C[i * N + j];
         }
-        std::cout << \"\\n\";
+        std::cout << "\n";
     }
 
     return 0;
