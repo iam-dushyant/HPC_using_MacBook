@@ -21,4 +21,4 @@ Use of GPU acceleration -
 - Using Apple’s framework for GPU-accelerated compute tasks - Metal Performance Shaders (MPS)
 
 ## Programming Language
-C++
+C++, Objective-C++
