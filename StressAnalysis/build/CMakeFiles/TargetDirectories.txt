@@ -1,0 +1,3 @@
+/Users/dushyant/Documents/MyLearning/HPC/StressAnalysis/build/CMakeFiles/mesh.dir
+/Users/dushyant/Documents/MyLearning/HPC/StressAnalysis/build/CMakeFiles/edit_cache.dir
+/Users/dushyant/Documents/MyLearning/HPC/StressAnalysis/build/CMakeFiles/rebuild_cache.dir

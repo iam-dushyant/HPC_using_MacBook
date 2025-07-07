@@ -25,7 +25,7 @@ typedef CGAL::Mesh_criteria_3<Tr> Mesh_criteria;
 
 int main() {
     // 1. Load surface mesh from .obj
-    std::ifstream input("your_model.obj");
+    std::ifstream input("bevelled_beam.obj");
     Polyhedron poly;
 
     if (!input || !(input >> poly) || poly.empty()) {
