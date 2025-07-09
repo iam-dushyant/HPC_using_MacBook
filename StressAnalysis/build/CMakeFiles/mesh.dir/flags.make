@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCGAL_USE_GMPXX=1
 
-CXX_INCLUDES = -isystem /opt/homebrew/include -isystem /opt/anaconda3/include
+CXX_INCLUDES = -isystem /usr/local/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

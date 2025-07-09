@@ -38,7 +38,7 @@ CGAL_CTEST_DISPLAY_MEM_AND_TIME:BOOL=OFF
 CGAL_DEV_MODE:BOOL=OFF
 
 //The directory containing a CMake configuration file for CGAL.
-CGAL_DIR:PATH=/opt/homebrew/lib/cmake/CGAL
+CGAL_DIR:PATH=/usr/local/lib/cmake/CGAL
 
 //Build the testing tree.
 CGAL_ENABLE_TESTING:BOOL=OFF
