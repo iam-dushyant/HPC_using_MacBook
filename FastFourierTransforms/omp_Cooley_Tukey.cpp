@@ -55,8 +55,6 @@ int main() {
 
     fft(x);
 
-    cout << "\nFFT Output written to output_file.txt\n";
-
     ofstream fout("output_file.txt");
     for (size_t i = 0; i < x.size(); ++i) {
         fout << i << " "
@@ -65,6 +63,8 @@ int main() {
     }
 
     fout.close();
+    
+    cout << "\nFFT Output written to output_file.txt\n";
 
     return 0;
 }
