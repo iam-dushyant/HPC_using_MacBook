@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <complex>
 #include <vector>
 #include <cmath>
@@ -54,8 +55,16 @@ int main() {
 
     fft(x);
 
-    cout << "\nFFT Output:\n";
-    for (auto val : x) cout << val << endl;
+    cout << "\nFFT Output written to output_file.txt\n";
+
+    ofstream fout("output_file.txt");
+    for (size_t i = 0; i < x.size(); ++i) {
+        fout << i << " "
+             << real(x[i]) << " "
+             << imag(x[i]) << endl;
+    }
+
+    fout.close();
 
     return 0;
 }
